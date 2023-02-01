@@ -170,12 +170,6 @@ Source : [lutece.paris.fr](https://lutece.paris.fr/support/jsp/site/Portal.jsp?p
 
 ## :three: Une collaboration simplifiée et efficace {auto-animate=true}
 
-Quel que soit l'environnement de travail
-
-![](img/envtravail.png){fig-align="center" height=475}
-
-## :three: Une collaboration simplifiée et efficace {auto-animate=true}
-
 Avec des outils pour faciliter la collaboration
 
 ![](img/issue.png){fig-align="center" height=500}
