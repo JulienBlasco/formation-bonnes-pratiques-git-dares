@@ -268,14 +268,6 @@ L'utilisation de `Git` nécessite [__certaines notions préalables__]{.orange}:
 - Des fonctionalités supplémentaires : __réseau social du code__
 :::
 
-:::{.callout-tip}
-
-- `GitHub` : utilisation pour les projets **open-source**
-- `GitLab` : utilisation pour les projets **internes**
-
-:::
-
-
 ## Concepts {auto-animate=true}
 
 Dépôt local / dépôt distant (`remote`)
