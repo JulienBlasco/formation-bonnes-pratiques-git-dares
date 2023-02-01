@@ -1,0 +1,35 @@
+:::{.callout-tip collapse="true" icon=false}
+## Revenir à des anciennes versions du code
+
+**Cette application nécessite un peu de préparation:**
+
+::: {.incremental}
+1. Créer un dépôt vide sur le Gitlab et cloner le dépôt sur votre PC
+2. Créer un fichier "fichier1" du type de votre choix puis effectuer une commit (commit 1)
+3. Créer un deuxième fichier, modifier le contenu du fichier 1 et effectuer une commit (commit 2)
+3. Créer un troisième fichier, modifier le contenu du fichier 2 et effectuer une commit (commit 3)
+4. Créer un quatrième fichier et effectuer une commit (commit 4), puis git effectuer un `git push`.
+:::
+
+:::
+
+:::{.callout-tip}
+
+Pour la suite de l'application, nous aurons besoin d'identifier les commits par leur id. Pour trouver l'id d'une commit, on peut utiliser la commande `git log`.
+
+:::
+<!-- __Effectuer les opérations suivantes : __
+
+C’est normal ! Avant d’accepter une modification, `Git` vérifie en premier lieu la cohérence de la branche avec le dépôt distant. Le premier ayant fait un `push` a modifié le dépôt commun ; les autres doivent intégrer ces modifications dans leur version locale (`pull`) avant d’avoir le droit de proposer un changement.
+
+::: {.incremental}
+5. Pour ceux dont le `push` a été refusé, effectuer un `pull` des modifications distantes
+6. Dans `RStudio`, afficher l'historique du projet et regarder la manière dont ont été intégrées les modifications des collaborateurs
+7. Effectuer à nouveau un `push` de vos modifications locales
+8. Les derniers membres du groupe devront refaire les étapes précédentes, potentiellement plusieurs fois, pour pouvoir `push` les modifications locales
+:::
+
+
+:::
+
+❓ **Question** : que se serait-il passé si les différents membres du groupe avaient effectué leurs modifications sur un seul et même fichier ? -->

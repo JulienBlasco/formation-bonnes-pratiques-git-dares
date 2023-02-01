@@ -290,7 +290,7 @@ _Workflow_ (version littéraire) :
 
 _Workflow_ (version imagée complète) :
 
-![Source : [itnext.io](https://itnext.io/git-concepts-for-newcomers-part-2-git-repository-working-tree-and-staging-area-a2e720bf3528)](img/completeworkflow.png){height="400" width="500"}
+![Source : [itnext.io](https://itnext.io/git-concepts-for-newcomers-part-2-git-repository-working-tree-and-staging-area-a2e720bf3528)](img/workflow_v2.png){height="500" width="1000"}
 
 
 ## Commandes essentielles {auto-animate=true}
@@ -444,6 +444,14 @@ Description plus détaillée : [ici](https://docs.github.com/en/get-started/quic
 ## Application 7
 
 {{< include _application7.qmd >}}
+
+## Application 8 {.smaller}
+
+{{< include _application8.qmd >}}
+
+## Application 8 - Suite {.smaller}
+
+{{< include _application8bis.qmd >}}
 
 ## Ressources utiles {.smaller}
 
