@@ -14,4 +14,6 @@ Lors de la création du projet via Rstudio un fichier `.gitignore` a été cré�
 
 :::
 
+. . .
+
 ❓ **Question** : que se passe-t-il lorsque l'on ajoute au `.gitignore` des fichiers qui ont déjà été *commit* sur le projet Git ?
