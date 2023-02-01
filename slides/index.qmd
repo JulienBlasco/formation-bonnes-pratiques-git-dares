@@ -419,11 +419,7 @@ __Format des commits__
 
 {{< include _application5.qmd >}}
 
-## Le modèle des branches {auto-animate=true}
-
-![](https://i.imgflip.com/4ooord.jpg){fig-align="center"}
-
-## Le modèle des branches {auto-animate=true}
+## Le modèle des branches
 
 ![](img/branches.png)
 
