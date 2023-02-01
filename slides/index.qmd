@@ -170,22 +170,35 @@ Source : [lutece.paris.fr](https://lutece.paris.fr/support/jsp/site/Portal.jsp?p
 
 ## :three: Une collaboration simplifiée et efficace {auto-animate=true}
 
-Quel que soit l'environnement de travail
-
-![](img/envtravail.png){fig-align="center" height=475}
-
-## :three: Une collaboration simplifiée et efficace {auto-animate=true}
-
 Avec des outils pour faciliter la collaboration
 
 ![](img/issue.png){fig-align="center" height=500}
 
 ## :four: Partager son code à un public large {auto-animate=true}
 
-Une vitrine pour vous
 
-![](https://starecat.com/content/wp-content/uploads/github-commits-contributions-you-vs-the-guy-she-told-you-not-to-be-worried-about.jpg){height="500" fig-align="center"}
+- Faciliter la réutilisation
 
+![](img/ines.png){fig-align="center" height=400}
+
+
+## :four: Partager son code à un public large {auto-animate=true}
+
+
+- Faciliter la réutilisation
+- Permettre les contributions extérieures
+
+![](img/utilitr.png){fig-align="center" height=350}
+
+
+## :four: Partager son code à un public large {auto-animate=true}
+
+
+- Faciliter la réutilisation
+- Permettre les contributions extérieures
+- Une vitrine pour vous
+
+![](img/hadley.png){fig-align="center" height=300}
 
 
 ## En résumé
@@ -203,6 +216,10 @@ Une vitrine pour vous
 . . .
 
 - Améliorer la [**visibilité**]{.orange} de ses projets
+
+::: {.notes}
+La construction d'un historique du projet permet grandement de diminuer les risques lors de la maintenance et de la modification du code.
+:::
 
 # Le contrôle de version avec `Git`
 
@@ -251,14 +268,6 @@ L'utilisation de `Git` nécessite [__certaines notions préalables__]{.orange}:
 - Des fonctionalités supplémentaires : __réseau social du code__
 :::
 
-:::{.callout-tip}
-
-- `GitHub` : utilisation pour les projets **open-source**
-- `GitLab` : utilisation pour les projets **internes**
-
-:::
-
-
 ## Concepts {auto-animate=true}
 
 Dépôt local / dépôt distant (`remote`)
@@ -276,14 +285,6 @@ _Workflow_ (version littéraire) :
 - On dit à `Git` que ces fichiers doivent être suivis (`staging area`)
 - On valide les modifications faites en local (`commit`)
 - On soumet les modifications (`push`) après avoir récupéré la version collective (`pull`)
-
-## Concepts {auto-animate=true}
-
-_Workflow_ (version imagée) :
-
-![](img/areas.png){ fig-align="center"}
-
-Source : [Git Documentation](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
 
 ## Concepts {auto-animate=true}
 
@@ -418,11 +419,7 @@ __Format des commits__
 
 {{< include _application5.qmd >}}
 
-## Le modèle des branches {auto-animate=true}
-
-![](https://i.imgflip.com/4ooord.jpg){fig-align="center"}
-
-## Le modèle des branches {auto-animate=true}
+## Le modèle des branches
 
 ![](img/branches.png)
 
