@@ -288,14 +288,6 @@ _Workflow_ (version littéraire) :
 
 ## Concepts {auto-animate=true}
 
-_Workflow_ (version imagée) :
-
-![](img/areas.png){ fig-align="center"}
-
-Source : [Git Documentation](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
-
-## Concepts {auto-animate=true}
-
 _Workflow_ (version imagée complète) :
 
 ![Source : [itnext.io](https://itnext.io/git-concepts-for-newcomers-part-2-git-repository-working-tree-and-staging-area-a2e720bf3528)](img/completeworkflow.png){height="400" width="500"}
