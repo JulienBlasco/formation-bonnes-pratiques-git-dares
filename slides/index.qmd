@@ -223,6 +223,10 @@ Avec des outils pour faciliter la collaboration
 
 - Améliorer la [**visibilité**]{.orange} de ses projets
 
+::: {.notes}
+La construction d'un historique du projet permet grandement de diminuer les risques lors de la maintenance et de la modification du code.
+:::
+
 # Le contrôle de version avec `Git`
 
 ## :warning: Git est complexe {auto-animate=true}
