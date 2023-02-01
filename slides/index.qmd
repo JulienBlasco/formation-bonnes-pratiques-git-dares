@@ -182,10 +182,29 @@ Avec des outils pour faciliter la collaboration
 
 ## :four: Partager son code à un public large {auto-animate=true}
 
-Une vitrine pour vous
 
-![](https://starecat.com/content/wp-content/uploads/github-commits-contributions-you-vs-the-guy-she-told-you-not-to-be-worried-about.jpg){height="500" fig-align="center"}
+- Faciliter la réutilisation
 
+![](img/ines.png){fig-align="center" height=400}
+
+
+## :four: Partager son code à un public large {auto-animate=true}
+
+
+- Faciliter la réutilisation
+- Permettre les contributions extérieures
+
+![](img/utilitr.png){fig-align="center" height=350}
+
+
+## :four: Partager son code à un public large {auto-animate=true}
+
+
+- Faciliter la réutilisation
+- Permettre les contributions extérieures
+- Une vitrine pour vous
+
+![](img/hadley.png){fig-align="center" height=300}
 
 
 ## En résumé
