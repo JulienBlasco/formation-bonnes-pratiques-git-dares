@@ -7,7 +7,7 @@
 3. Ajouter ces fichiers à l'index (*staging area*) de Git en les cochant dans l'interface `GitHub Desktop` (ils sont en fait cochés par défaut dans l'onglet "Change" à gauche)
 4. Effectuer un `commit`, auquel on donnera un message descriptif pertinent
 5. Supprimer le fichier `script1.R` et modifier le contenu du fichier `script2.R`
-6. Analyser ce qui se passe lorsque l'on coche ces fichiers dans l'interface `GitHub Desktop`
+6. Analyser ce qui se passe dans l'interface `GitHub Desktop`
 7. Effectuer un nouveau *commit* pour ajouter ces modifications à l'historique
 :::
 :::
