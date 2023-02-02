@@ -10,7 +10,7 @@
 Mais **cette fois, le `pull` est également rejeté** : il y a un **conflit** entre l'historique du projet distant et celui du projet local.
 `Git` nous indique qu'il faut résoudre le conflit avant de pouvoir modifier l'historique du projet.
 
-5. Utiliser l'interface de `RStudio` pour résoudre le conflit, en choisissant la version du fichier que vous souhaitez conserver, puis `commit`/`push` les modifications
+5. Pour résoudre le conflit, vous pouvez modifier votre fichier manuellement en choisissant la version du fichier que vous souhaitez conserver, puis `commit`/`push` les modifications
 6. Comme dans l'application précédente, seul le développeur le plus rapide parvient à `push`. Les autres doivent répéter l'opération.
 :::
 
