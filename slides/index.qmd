@@ -346,6 +346,16 @@ un bon `.gitignore`)
 | Pousser les changements locaux (branche `master`) | `git push origin master` |
 | Récupérer les changements distants (branche `master`) | `git pull origin master` |
 
+## Quelques explications avant les Applications
+
+Travail avec Git à la Dares : les choix réalisés
+
+:::{.incremental}
+- Utilisation du GitLab de l'intranet : (https://gitlab.intranet.social.gouv.fr/)
+- Favorisation de l'interface graphique Github Desktop
+- Possibilité d'utiliser Rstudio comme interface graphique (cf. application annexe)
+:::
+
 ## Application 0
 
 {{< include _application0.qmd >}}
