@@ -8,7 +8,7 @@
 2. Créer un fichier "fichier1" du type de votre choix puis effectuer une commit (commit 1)
 3. Créer un deuxième fichier, modifier le contenu du fichier 1 et effectuer une commit (commit 2)
 3. Créer un troisième fichier, modifier le contenu du fichier 2 et effectuer une commit (commit 3)
-4. Créer un quatrième fichier et effectuer une commit (commit 4), puis git effectuer un `git push`.
+4. Créer un quatrième fichier et effectuer une commit (commit 4), puis effectuer une `git push`.
 :::
 
 :::
