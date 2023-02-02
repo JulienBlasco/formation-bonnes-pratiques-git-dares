@@ -9,7 +9,7 @@
 5. Cloner le dépôt distant sur votre environnement local :
     + `File` → `Clone repository...` → `URL`
 6. Coller le lien du projet et selectionner le chemin où vous souhaitez le stocker en local
-7. Rentrez vos identifiants GitLab si demandés
+7. Rentrer ses identifiants GitLab si demandés
 :::
 
 :::
