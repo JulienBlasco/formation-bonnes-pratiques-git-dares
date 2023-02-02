@@ -475,6 +475,10 @@ Description plus détaillée : [ici](https://docs.github.com/en/get-started/quic
 
 {{< include _application8bis.qmd >}}
 
+## Application annexe - Git sur Rstudio {.smaller}
+
+{{< include _application_annexe.qmd >}}
+
 ## Ressources utiles {.smaller}
 
 <br>

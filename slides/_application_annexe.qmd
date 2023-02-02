@@ -1,0 +1,20 @@
+:::{.callout-tip collapse="true" icon=false}
+## Préparation de l'environnement de travail sur Rstudio
+
+:::{.incremental}
+1. Se connecter à son compte [`GitLab`](https://gitlab.intranet.social.gouv.fr/) et créer un nouveau dépôt public sur `GitLab`
+2. [Générer un *token*](https://gitlab.intranet.social.gouv.fr/profile/personal_access_tokens) (jeton d'accès) d'authentification. Donnez lui un nom, une date d'expiration si nécessaire et cochez "api". Attention, vous ne pourrez afficher ce jeton d'accès qu'une seule fois.
+3. Lancer `RStudio`.
+5. Utiliser `terminal` (celui de Rstudio par exemple) pour activer le stockage des identifiants :
+    + `git config --global credential.helper store`
+6. Cloner le dépôt distant sur votre environnement local avec le lien HTTPS de votre projet :
+    + `File` → `New project` → `Version Control` → `Git`.  Entrez vos identifiants GitLab ainsi que le `token` en guise de mots de passe.
+    
+    + ATTENTION : il se peut que vous rencontriez un problème avant de pouvoir vous identifier (en particulier sur machine virtuelle) avec le message d'erreur suivant : 
+    + "unable to access SSL certificate problem: unable to get local issuer certificate"  
+    Pour régler ce problème, allez dans un `terminal` et entrez la commande : 
+    + `git config --global http.sslbackend schannel`)
+7. Une fois votre projet cloné, vous remarquerez l'apparition d'un onglet `Git` dans la fenêtre en haut à droite de Rstudio. Pour ouvrir l'interface graphique Git de Rstudio, cliquez sur Diff dans l'onglet Git.
+8. Vous avez toutes les clefs en main pour faire du Git sur Rstudio, les principes sont exactement les mêmes que dans les applications précédente hormis quelques exceptions : vous n'avez pas besoin de passer par l'étape "fetch" avant de pouvoir "pull" les modifications du dépôt distant et, Rstudio vous crée automatiquement à la racine un fichier .Rproj & un .gitignore au clonage du projet
+:::
+:::
