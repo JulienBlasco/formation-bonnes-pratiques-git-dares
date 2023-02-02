@@ -4,10 +4,10 @@
 
 ::: {.incremental}
 1. Effectuer un `push` pour intégrer les changements locaux au projet distant
-2. Parcourir l'historique du projet sur `GitHub`
+2. Parcourir l'historique du projet sur `GitHub Desktop` (dans l'onglet "History")
     a. Faire apparaître les différences entre deux versions consécutives du projet
     b. Afficher une version passée du projet
-3. Modifier le fichier `README.md` via l'interface d'édition web
+3. Modifier/ajouter le fichier `README.md` via l'interface d'édition web de GitLab
 4. Faire une modification du projet local, puis `commit`/`push`. Que se passe-t-il ?
 5. Faire un `pull` pour intégrer les changements distants au projet local
 6. Effectuer à nouveau l'étape de `push` des changements locaux
