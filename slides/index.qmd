@@ -261,17 +261,17 @@ L'utilisation de `Git` nécessite [__certaines notions préalables__]{.orange}:
 
 ## Concepts {auto-animate=true}
 
-`Git`, `GitHub`, `GitLab`... quelles différences ?
+`Git`, `GitHub`, `GitLab`, `GitHub Desktop` ... quelles différences ?
 
 :::{.incremental}
 - `Git` est un **logiciel** ;
-- Utilisation en ligne de commandes
-- Différentes [__interfaces graphiques__]{.blue2} (`RStudio`, `VS Code`...)
+- Il interprète les lignes de commandes.
+- Différentes [__interfaces graphiques__]{.blue2} permettent d'interagir avec Git plus simplement en "clic-boutton" (`GitHub Desktop`, `RStudio`, `VS Code`...)
 :::
 
 ## Concepts {auto-animate=true}
 
-`Git`, `GitHub`, `GitLab`... quelles différences ?
+`Git`, `GitHub`, `GitLab`, `GitHub Desktop` ... quelles différences ?
 
 
 :::{.incremental}
