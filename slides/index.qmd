@@ -242,9 +242,21 @@ L'utilisation de `Git` nécessite [__certaines notions préalables__]{.orange}:
 ::: {.incremental}
 - L'**usage quotidien** n'implique que [**quelques commandes**]{.orange}
 - [**Enormément de ressources**]{.orange} disponibles sur internet
-- Des [**interfaces visuelles**]{.orange} (ex: `RStudio`, `Sublime Merge`, `VS Code`) qui facilitent l'apprentissage
+- Des [**interfaces visuelles**]{.orange} (ex: `GitHub Desktop`, `RStudio`, `Sublime Merge`, `VS Code`) qui facilitent l'apprentissage
 - Un petit investissement individuel pour de [**gros gains collectifs**]{.orange}
 :::
+
+## Exemples d'interfaces visuelles {auto-animate=true}
+
+![](img/interface_github_desk.PNG){fig-align="center"}
+
+## Exemples d'interfaces visuelles {auto-animate=true}
+
+![](img/interface_Rstudio.PNG){fig-align="center"}
+
+## Exemples d'interfaces visuelles {auto-animate=true}
+
+![](img/interface_commande_prompt.PNG){fig-align="center"}
 
 
 ## Concepts {auto-animate=true}
