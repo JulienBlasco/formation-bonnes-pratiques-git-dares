@@ -2,7 +2,7 @@
 ## Le fichier `.gitignore`
 
 ::: {.incremental}
-Le fichier `.gitignore` a pour objectif d'indiquer à Git les fichiers ou les types de fichiers dont les modifications seront à ignorer dans les futures commandes.
+Le fichier `.gitignore` a pour objectif d'indiquer à Git les fichiers ou les types de fichiers dont on ne souhaite pas suivre (synchroniser) les modifications, et qui doivent donc être ignorés par git.
 
 1. Créer un fichier ".gitignore" à la racine du projet.
 2. Ajouter le contenu du [.gitignore standard R](https://github.com/github/gitignore/blob/main/R.gitignore)

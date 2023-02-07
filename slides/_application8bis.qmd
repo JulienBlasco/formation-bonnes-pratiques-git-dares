@@ -1,24 +1,20 @@
 :::{.callout-tip collapse="true" icon=false}
 ## Revenir à des anciennes versions du code
 
-**Envisageons désormais différents scénarios :**
+**Envisageons désormais différents scénarios**
 
 ::: {.incremental}
-1. Supposons que l’on se rende compte que la modification du fichier 1 ait posé problème et que l’on souhaite **revenir à sa version de la commit 1** :
-    - Effectuer l'opération `git restore nom_fichier1 --source id_commit1` et vérifier que le fichier 1 est de retour à sa première version
-    <!-- - Vérifier avece `git status` que seul le code du fichier1 a été modifié, mais que ces changements ne sont pas encore « suivis » par Git (le fichier1 n’est pas dans la staging area et aucun commit n’a été créé) -->
+1. Supposons que l’on souhaite annuler la dernière commit **(avant d'avoir push)**:
+    - Cliquer sur le bouton `undo` de l'interface GitHubDesktop (en bass à gauche du menu Changes) et vérifier que la commit a été annulée, mais que le fichier 3 existe toujours.
+    - En fait, si l'on souhaite aussi annuler les modifications apportées par une commit, il faut "discard" les changements apportées par cette commit sur chaque fichier (clic droit sur le fichier -> discard).
 
-2. Supposons maintenant que la commit 3 ne soit pas utile et que l’on souhaite directement **créer une commit permettant d'annuler tout ce qui a été fait durant la commit 3**
-    - Effectuer l'opération : `git revert id_commit3`
-    - Vérifier que les modifications effectuées sur le fichier 2 ont été annulées et que le fichier 3 a été supprimé, mais que le fichier 4 existe toujours
-3. Supposons qu’on souhaite revenir à une ancienne version du projet (une ancienne commit) pour explorer une nouvelle possibilité de développement: on va **créer une nouvelle branche et se placer par exemple à la commit 2**.
-    - Effectuer l'opération `git switch – c new_branch_name id_commit2`
+2. Supposons maintenant qu’on souhaite revenir à une ancienne version du projet (une ancienne commit) pour explorer une nouvelle possibilité de développement: on va **créer une nouvelle branche et se placer par exemple à la commit 2**.
+    - Dans l'historique des commits GithubDesktop, effectuer un clic-droit sur la commit 2 et sélectionner "Create branch from commit". Rentrer le nom de la nouvelle branche et valider l'opération.
     - Vérifier qu'une nouvelle branche a été créée et qu'elle contient le projet tel qu'il était après la commit2
-    - Revenir à la branche principale en utilisant `git switch -`
-4. Enfin supposons que les dernières commits aient donné lieu à des erreurs et que l'on souhaite **revenir à une ancienne version du projet tout en effaçant toute trace des commits ultérieures**
-    - Effectuer l'opération `git reset –hard id_commit_2` et vérifier que le projet est tel qu'il était après la commit2
-    - Effectuer un `git push`, puis vérifier dans l'historique des commits sur gitlab qu'il n'y a plus aucune trace des commits 3 et 4.
-:::
+    - Revenir à la branche principale en la sélectionnant directement depuis le volet de sélection des branches sur Github Desktop.
 
+3. Afin de préparer l'application suivante, recréer un fichier3 puis commit (commit 3).
 
 :::
+:::
+

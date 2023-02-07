@@ -302,7 +302,7 @@ _Workflow_ (version littéraire) :
 
 _Workflow_ (version imagée complète) :
 
-![Source : [itnext.io](https://itnext.io/git-concepts-for-newcomers-part-2-git-repository-working-tree-and-staging-area-a2e720bf3528)](img/workflow_v2.png){height="500" width="1000"}
+![](img/workflow_v2.png){height="500" width="1000"}
 
 
 ## Commandes essentielles {auto-animate=true}
@@ -348,7 +348,7 @@ un bon `.gitignore`)
 
 ## Quelques explications avant les Applications
 
-Travail avec Git à la Dares : les choix réalisés
+Travail avec Git à la Dares : les choix proposés
 
 :::{.incremental}
 - Utilisation du GitLab de l'intranet : (https://gitlab.intranet.social.gouv.fr/)
@@ -467,13 +467,17 @@ Description plus détaillée : [ici](https://docs.github.com/en/get-started/quic
 
 {{< include _application7.qmd >}}
 
-## Application 8 {.smaller}
+## Application 8 
 
 {{< include _application8.qmd >}}
 
 ## Application 8 - Suite {.smaller}
 
 {{< include _application8bis.qmd >}}
+
+## Application 8 - Bonus {.smaller}
+
+{{< include _application8bonus.qmd >}}
 
 ## Application annexe - Git sur Rstudio {.smaller}
 

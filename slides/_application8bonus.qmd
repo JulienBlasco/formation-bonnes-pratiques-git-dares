@@ -1,0 +1,24 @@
+:::{.callout-tip collapse="true" icon=false}
+## Revenir à des anciennes versions du code avec l'invite de commandes
+
+::: {.incremental}
+
+1. Supposons que l’on se rende compte que la modification du fichier 1 (durant la commit 2) ait posé problème et que l’on souhaite **revenir à sa version de la commit 1 avant dernière commit)** :
+    - Effectuer l'opération `git restore nom_fichier1 --source id_commit1` et vérifier que le fichier 1 est de retour à sa première version. Avec `git status`, vérifier qu'il n'est pas enregistré dans l'index : statut "`not staged`").
+
+2. Supposons que les dernières commits soient trop nombreuses ou aient donné lieu à des erreurs et que l'on souhaite **effacer ces commits de l'historique de git**
+    - L'opération `git reset id_commit_1` permet de supprimer de l'historique git les commits postérieures à la commit 1 sans pour autant effacer les modifications du code qu'elles ont entrainées. Effectuer l'opération.
+    - Vérifier que les commits ont bien disparu de l'historique (`git log`). Vérifier que `git status` liste bien les fichiers modifiés par les commits 2 et 3, mais que les fichiers affectés ne sont pas ajoutés à l'index.
+ 
+    - Si ces dernières n'étaient pas désirables, on peut désormais effectuer un `git restore` pour effacer les modifications qu'elles ont apporté au code (on revient donc à la version du code datant de la commit 1).
+    - En résumé, `git reset` permet de supprimer des commits de l'historique, mais pas de revenir directement à une ancienne version du code. Si on souhaite que ce soit le cas, il faut ensuite effectuer un `git restore`.
+
+3. Recréer deux commits, puis cette fois effectuer un `git push`.
+    - Il est difficile de modifier l'historique du repo distant après un `git push`... Si l'on souhaite **annuler les modifications apportées par certaines commits**, on peut cependant utiliser `git revert`.
+    - Effectuer l'opération : `git revert HEAD~2`, puis constater qu'une commit a été créée et a permis d'annuler toutes les modifications des 2 dernières commits, mais que celles-ci restent présentes dans l'historique.
+    - Concrètement, il est rare d'avoir besoin de supprimer des commits de l'historique du repo distant, qui est justement là pour garder toute trace de travail, même infructueux. Il ne faut donc pas avoir peur de push régulièrement ! En pratique, il faut surtout faire attention à ne pas push par inadvertance des fichiers sensibles.
+
+:::
+
+
+:::
